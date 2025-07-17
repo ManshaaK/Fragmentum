@@ -8,22 +8,24 @@ Each ball reacts to forces like gravity, air resistance, and canvas boundaries, 
 Canvas simulation using graphics.py.
 Here, each ball has:
 
-    Independent velocity and mass.
+  Independent velocity and mass.
 
-    Basic physics-based motion and bounce logic.
+  Basic physics-based motion and bounce logic.
 
-    A recursive splitting behavior based on speed and generation.
+  A recursive splitting behavior based on speed and generation.
 
-    Visual color coding for ball generations.
+  Visual color coding for ball generations.
 
-    Simple end condition: the simulation stops when no balls remain.
+  Simple end condition: the simulation stops when no balls remain.
 
 🧠 What I Learned
 This was one of the first times I went from raw physics equations to something visually alive. I got a deeper grip on:
 
-    Vector math, trigonometry, and motion simulation.
-    Writing clean, modular OOP code for animations.
-    Building logic that can evolve without needing constant input.
+  Vector math, trigonometry, and motion simulation.
+
+  Writing clean, modular OOP code for animations.
+
+  Building logic that can evolve without needing constant input.
 
 🛠️ Tech Stack
     Language: Python
@@ -31,6 +33,8 @@ This was one of the first times I went from raw physics equations to something v
     Modules Used: math, random, time
 
 📸 A Preview!
-![A look at the simulation!](<preview.gif>)
+<p align="center">
+  <img src="preview.gif" alt="A look at the simulation!" width="500"/>
+</p>
 
 This project was originally built as part of Stanford's Code in Place 2025 program (Experienced Track), and was written for Stanford's browser-based IDE with access to the `Canvas` module. While the code is open for reference, **it won’t run locally as-is** unless the environment has the custom `graphics.Canvas` class that was used in the course setup.
